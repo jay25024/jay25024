@@ -1,0 +1,35 @@
+@import "../../global.scss";
+
+
+.portfolio{
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+   h1{
+       font-size: 50px;
+   }
+
+   ul{
+       margin: 10px;
+       padding: 0;
+       list-style: none;
+       display: flex;
+
+       li{
+           font-size: 14px;
+           margin-right: 50px;
+           padding:7px;
+           border-radius: 10px;
+           cursor: pointer;
+           &.active{
+               background-color: $maincolor ;
+               color: white;
+           }
+
+       }
+   }
+
+
+}
